@@ -137,6 +137,7 @@ cut -f3,4 chipotle.tsv | Sort | uniq | wc -l
 3. only retain the unique rows
 4. count all remaining rows
 5. returns a count of 1872 (from 4623 in the original file)
-6. There were 1872 distinct things ordered in the order data set.
+6. There were **1872 distinct things ordered in the order data set.**
+7. This is more than the total number of distinct orders (1834) in the data set!
 
 ----
